@@ -11,6 +11,6 @@ public class App
     public static void main( String[] args )
     {
         RedisRegistryService redisRegistryService =new RedisRegistryService();
-        redisRegistryService.registerPack("JTservice.service");
+        redisRegistryService.registerPack("jtservice.service");
     }
 }
