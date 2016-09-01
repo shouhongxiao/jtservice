@@ -1,0 +1,8 @@
+jtservice\register\RegisterAddrAnnotation.class
+jtservice\register\IRegistryService.class
+jtservice\App.class
+jtservice\register\RegisterScannerListener.class
+jtservice\register\JedisContext.class
+jtservice\register\RedisRegistryService.class
+jtservice\service\IAddServer.class
+jtservice\service\AddServer.class
