@@ -7,6 +7,7 @@ import javax.ws.rs.core.MediaType;
 /**
  * Created by shouh on 2016/8/31.
  */
+@Path("/user")
 public class AddServer implements IAddServer {
 
     @Path("/add")

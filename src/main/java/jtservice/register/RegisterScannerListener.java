@@ -1,6 +1,7 @@
 package jtservice.register;
 
 import com.sun.jersey.spi.scanning.AnnotationScannerListener;
+import jtservice.utility.RegisterAddrAnnotation;
 
 /**
  * Created by shouh on 2016/8/31.

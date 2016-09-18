@@ -3,6 +3,7 @@ package jtservice.register;
 import com.sun.jersey.core.spi.scanning.PackageNamesScanner;
 import com.sun.jersey.core.spi.scanning.Scanner;
 import com.sun.jersey.spi.scanning.AnnotationScannerListener;
+import jtservice.utility.RegisterAddrAnnotation;
 
 import java.lang.reflect.Method;
 import java.util.Set;

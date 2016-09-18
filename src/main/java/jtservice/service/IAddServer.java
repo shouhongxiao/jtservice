@@ -1,12 +1,11 @@
 package jtservice.service;
-
-import jtservice.register.RegisterAddrAnnotation;
+import jtservice.utility.RegisterAddrAnnotation;
 
 /**
  * Created by shouh on 2016/8/31.
  */
-@RegisterAddrAnnotation(name = "base")
+@RegisterAddrAnnotation(name = "user")
 public interface IAddServer {
-    @RegisterAddrAnnotation(name = "add", value = "/base/add")
+    @RegisterAddrAnnotation(value = "/user/add")
     abstract String add(int x, int y);
 }
